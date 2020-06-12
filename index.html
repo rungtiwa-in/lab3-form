@@ -18,63 +18,70 @@
             padding: 5px;
             text-align: left;
         }
+        .center {
+            max-width: 500px;
+            margin: auto;
+            text-align: center;
+        }
     </style>
 </head>
 
 <body>
-    <h1>Americano - Rungtiwa</h1>
-    <form action="">
-        <table>
-            <tr>
-                <th colspan="2" style="text-align: center;">Pizza Shop</th>
-            </tr>
-            <tr>
-                <th>Name:</th>
-                <td>
-                    <input type="text" id="name">
-                </td>
-            </tr>
-            <tr>
-                <th>Pizza Toping:</th>
-                <td>
-                    <input type="radio" id="supreame" name="toping" value="supreame">
-                    <label for="supreame">Supreame</label><br>
-                    <input type="radio" id="vegetarian" name="toping" value="vegetarian">
-                    <label for="vegetarian">Vegetarian</label><br>
-                    <input type="radio" id="hawaiian" name="toping" value="hawaiian">
-                    <label for="hawaiian">Hawaiian</label><br>
-                </td>
-            </tr>
-            <tr>
-                <th>Pizza Sauce:</th>
-                <td>
-                    <select name="sauce" id="sauce">
-                        <option value="tomato">Tomato</option>
-                        <option value="tomato1">Tomato1</option>
-                        <option value="tomato2">Tomato2</option>
-                    </select>
-                </td>
-            </tr>
-            <tr>
-                <th>Optional Extras:</th>
-                <td>
-                    <input type="checkbox" id="extracheese" name="optional" value="extracheese">
-                    <label for="extracheese">Extra Cheese</label>
-                    <input type="checkbox" id="gluten" name="optional" value="gluten">
-                    <label for="gluten">Gluten Free Base</label>
-                </td>
-            </tr>
-            <tr>
-                <th colspan="2">
-                    Delivery Instructions<br>
-                    <textarea id="delivery_instructions" style="width: 100%; "></textarea>
-                </th>
-            </tr>
-            <tr>
-                <th colspan="2"><input type="submit" value="Send my Order"></th>
-            </tr>
-        </table>
-    </form>
+    <div class="center">
+        <h1>Americano - Rungtiwa</h1>
+        <form action="">
+            <table style="width: 100%;">
+                <tr>
+                    <th colspan="2" style="text-align: center;">Pizza Shop</th>
+                </tr>
+                <tr>
+                    <th>Name:</th>
+                    <td>
+                        <input type="text" id="name">
+                    </td>
+                </tr>
+                <tr>
+                    <th>Pizza Toping:</th>
+                    <td>
+                        <input type="radio" id="supreame" name="toping" value="supreame">
+                        <label for="supreame">Supreame</label><br>
+                        <input type="radio" id="vegetarian" name="toping" value="vegetarian">
+                        <label for="vegetarian">Vegetarian</label><br>
+                        <input type="radio" id="hawaiian" name="toping" value="hawaiian">
+                        <label for="hawaiian">Hawaiian</label><br>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Pizza Sauce:</th>
+                    <td>
+                        <select name="sauce" id="sauce">
+                            <option value="tomato">Tomato</option>
+                            <option value="tomato1">Tomato1</option>
+                            <option value="tomato2">Tomato2</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Optional Extras:</th>
+                    <td>
+                        <input type="checkbox" id="extracheese" name="optional" value="extracheese">
+                        <label for="extracheese">Extra Cheese</label>
+                        <input type="checkbox" id="gluten" name="optional" value="gluten">
+                        <label for="gluten">Gluten Free Base</label>
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="2">
+                        Delivery Instructions<br>
+                        <textarea id="delivery_instructions" style="width: 99%; "></textarea>
+                    </th>
+                </tr>
+                <tr>
+                    <th colspan="2"><input type="submit" value="Send my Order"></th>
+                </tr>
+            </table>
+        </form>
+    </div>
 
 </body>
 
